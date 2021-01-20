@@ -1,0 +1,21 @@
+.field-length {
+ width: 450px;
+ border-radius: 5px;
+ box-shadow: 0em;
+}
+
+.submit {
+ color: rgb(29, 25, 25);
+ background-color: grey;
+ width: 400px;
+}
+
+h6{
+ color: rgb(70, 68, 68);
+ margin-right: 0.8em
+}
+
+.error {
+ color: red;
+}
+       

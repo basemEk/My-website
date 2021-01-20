@@ -1,0 +1,22 @@
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(46, 45, 45);
+  height: 60%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(184, 177, 177, 0.5))
+  }
+
+#h1-customer {
+ color:rgb(161, 159, 159);
+}
+
+.h1-h3 {
+ color:rgb(41, 40, 40)
+}
+
+.hero {
+ padding: 5%;
+}
+
