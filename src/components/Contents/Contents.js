@@ -14,7 +14,7 @@ function Contents() {
       <div className="row">
         <div className="column">
           <div className="blue-column">
-            <h3>Who we help in our mission</h3> <br />
+            <h3 className="three-columns">Who we help in our mission</h3> <br />
             Some Text in Column One Some Text in Column One Some Text in Column
             One Some Text in Column One Some Text in Column One Some Text in
             Column One Some Text in Column One Some Text in Column One. Some
@@ -28,7 +28,7 @@ function Contents() {
         </div>
         <div className="column">
           <div className="green-column">
-            <h3>What can we do for you</h3> <br />
+            <h3 className="three-columns">What can we do for you</h3> <br />
             Some Text in Column Two Some Text in Column One Some Text in Column
             One Some Text in Column One Some Text in Column One Some Text in
             Column One v v Some Text in Column One Some Text in Column Some Text
@@ -42,7 +42,7 @@ function Contents() {
         </div>
         <div className="column">
           <div className="orange-column">
-            <h3>Who is the Team</h3> <br /> <br />
+            <h3 className="three-columns">Who is the Team</h3> <br /> <br />
             Some Text in Column Two Some Text in Column One Some Text in Column
             One Some Text in Column One Some Text in Column One Some Text in
             Column One v v Some Text in Column One Some Text in Column Some Text

@@ -1,13 +1,40 @@
 .field-length {
  width: 450px;
  border-radius: 5px;
- box-shadow: 0em;
+ height: 2.4em;
 }
+
+.contact-us {
+ color: rgb(42, 47, 105);
+ text-align: center;
+ margin: 5%;
+ padding: 5%;
+}
+
+.contact-container {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  height: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(200, 215, 250);
+  border-radius: 5%;
+  }
+  
 
 .submit {
  color: rgb(29, 25, 25);
  background-color: grey;
  width: 400px;
+ margin-left: 5.5em;
+}
+
+.back-to-home {
+ float: right;
+ margin-top: 4em;
+ margin-right: -40%;
 }
 
 h6{
@@ -17,5 +44,10 @@ h6{
 
 .error {
  color: red;
+ margin-left:4em
+}
+
+.name-phone-email {
+ margin-left: 2em
 }
        

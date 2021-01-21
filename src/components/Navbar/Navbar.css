@@ -9,14 +9,28 @@
   }
 
 #h1-customer {
- color:rgb(161, 159, 159);
+  color:rgb(161, 159, 159);
+  text-align: center;
 }
 
 .h1-h3 {
- color:rgb(41, 40, 40)
+  color:rgb(41, 40, 40);
+  text-align: center;
 }
 
 .hero {
  padding: 5%;
+}
+
+.btn-contact {
+ /* width:50%;
+ margin-left:25%;
+ margin-right:25%; */
+  width: 200px;
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
