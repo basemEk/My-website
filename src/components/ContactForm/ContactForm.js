@@ -6,6 +6,7 @@ import "./ContactForm.css";
 
 
 function ContactForm() {
+
   const { register, errors, handleSubmit } = useForm();
 
   const onSubmit = (values) => console.log(values);
@@ -69,7 +70,7 @@ function ContactForm() {
             ref={register({
               pattern: {
                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                message: "Invalid Email address",
+                message: "Invalid Email Address",
               },
             })}
           />
@@ -83,9 +84,10 @@ function ContactForm() {
         </div>
         <br />
         <textarea
+          className="textarea-field"
           name="textHere"
           rows="5"
-          placeholder="Tell us about your business.."
+          placeholder="Tell us about your Business.."
           rows="5"
           cols="80"
           ref={register({
@@ -102,7 +104,7 @@ function ContactForm() {
 
       <div>
         <Button className="back-to-home" onClick={() => history.push("/")}>
-          Back to home
+          Back to Home
         </Button>
       </div>
     </div>
