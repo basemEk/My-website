@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import FooterLogo from "../images/itworks-200x200.png";
+import { IconContext } from "react-icons";
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -36,15 +38,50 @@ function Footer() {
           </div>
           {/*Coloumn 3*/}
           <div className="col">
-            <img src={FooterLogo} style={{ borderRadius: '5%' }}/>
+            <img
+              src={FooterLogo}
+              alt="footer-logo"
+              style={{ borderRadius: "5%" }}
+            />
           </div>
         </div>
+        <IconContext.Provider value={{ size: "1.3em" }}>
+          <div>
+            <ul className="icons-row">
+              <li>
+              <a href="https://www.facebook.com/">
+                <FaFacebook color="3B5998" />
+                </a>
+              </li>
+              <li>
+              <a href="https://www.instagram.com/">
+                <FaInstagram color="#DD2A7B" />
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/basemEk">
+                  <FaGithub />
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/bassem-kreidly-6a900319a/">
+                  <FaLinkedin color="#0077b5" />
+                </a>
+              </li>
+              
+              <br />
+              <li>Follow Us on Social Media</li>
+            </ul>
+          </div>
+        </IconContext.Provider>
 
         <hr />
         <div className="row">
-          <p>
-            &copy;{new Date().getFullYear()} Powered by: Bassem Kreidly  | All Rights
-            Reserved | Terms of service | Privacy
+          <p className="copy-right">
+            &copy;{new Date().getFullYear()} Powered by: Bassem Kreidly | All
+            Rights Reserved | Terms of service | Privacy
           </p>
         </div>
       </div>
