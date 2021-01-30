@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import "./Navbar.css";
 import ImgBanner from "../images/resized-cover.jpg";
 import Contents from "../Contents/Contents";
+import Slider from "../Slider/Slider";
 import { Link } from "react-router-dom";
 
 
@@ -32,6 +33,10 @@ function NavbarLanding() {
 
       <div>
         <Contents />
+      </div>
+      
+      <div>
+       <Slider />
       </div>
     </div>
   );

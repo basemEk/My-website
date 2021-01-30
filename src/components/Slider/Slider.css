@@ -1,0 +1,27 @@
+.tech-we-use{
+text-align: center;
+}
+
+
+.carousel {
+ margin: 9em;
+ margin-bottom: 15em
+}
+
+.tech-description {
+ text-align: center;
+}
+
+.tech-exerpt {
+ text-align: center;
+ margin-top: 5em
+}
+
+
+.carousel-caption {
+ position: absolute; 
+ bottom: -30px;
+ padding-top: 20px;
+ color: rgb(97, 89, 89);
+}
+

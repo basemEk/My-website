@@ -4,6 +4,7 @@ import FooterLogo from "../images/itworks-200x200.png";
 import { IconContext } from "react-icons";
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
+
 function Footer() {
   return (
     <div className="main-footer">
@@ -29,7 +30,7 @@ function Footer() {
           </div>
           {/*Coloumn 3*/}
           <div className="col">
-            <h4 className="footer-title">STUFF</h4>
+            <h4 className="footer-title">ANOTHER STUFF</h4>
             <ul className="list-unstyled">
               <li>WELL ANOTHER COLUMN</li>
               <li>OTHER STUFF</li>
@@ -61,7 +62,7 @@ function Footer() {
 
               <li>
                 <a href="https://github.com/basemEk">
-                  <FaGithub />
+                  <FaGithub color='grey' />
                 </a>
               </li>
 

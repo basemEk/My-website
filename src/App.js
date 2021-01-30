@@ -8,6 +8,7 @@ import "../src/components/Navbar/Navbar.css";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import ImgNav from "./components/images/resize-itworks.png";
 import Footer from "./components/Footer/Footer";
+import Slider from "./components/Slider/Slider";
 
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
           </Switch>
         </main>
       </Router>
-      
+
       <Footer />
     </div>
   );
