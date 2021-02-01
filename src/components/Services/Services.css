@@ -1,0 +1,41 @@
+.five-stars {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+
+.rate-service {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* min-height: 10vh; */
+ margin-top: 15em;
+ font-weight: bold;
+ color:red
+}
+
+.rating-is {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 10vh;
+ margin-top: 0%;
+ font-weight: bold;
+ color: rgb(107, 107, 107);
+}
+
+input[ type='radio'] {
+ display: none
+}
+
+.star {
+ cursor: pointer;
+ transition: color 200ms;
+}
+
+
+/* yellow: #ffc107
+grey: #e4e5e9 */

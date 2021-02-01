@@ -1,14 +1,14 @@
 import "./App.css";
-import React, { Fragment } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarLanding from "./components/Navbar/Navbar";
 import ContactForm from "./components/ContactForm/ContactForm";
 import { Button, Navbar, Form, Nav, FormControl } from "react-bootstrap";
 import "../src/components/Navbar/Navbar.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ImgNav from "./components/images/resize-itworks.png";
 import Footer from "./components/Footer/Footer";
-import Slider from "./components/Slider/Slider";
+import Services from "./components/Services/Services";
+
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
             <Nav className="mr-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="#features">About</Nav.Link>
-              <Nav.Link href="#services">Services</Nav.Link>
+              <Nav.Link href="/services">Services</Nav.Link>
               <Nav.Link href="/contact">Contact Us</Nav.Link>
             </Nav>
             <Form inline>
@@ -39,6 +39,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={NavbarLanding} />
             <Route path="/contact" component={ContactForm} />
+            <Route path="/services" component={Services} />
             <Route render={() => <h1>404: page not found</h1>} />
           </Switch>
         </main>

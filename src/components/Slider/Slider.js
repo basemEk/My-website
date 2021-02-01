@@ -3,6 +3,8 @@ import Carousel from "react-bootstrap/Carousel";
 import Laravel from "../images/laravel-resized.png";
 import ReactH from "../images/react.png";
 import WordPress from "../images/wordpress-logo.png";
+import Git from "../images/git.jpg";
+
 import "./Slider.css";
 
 
@@ -30,7 +32,6 @@ function Slider() {
 
         <Carousel.Item interval={4000}>
           <img
-            className="second-slide"
             className="d-block w-100"
             src={ReactH}
             alt="Third slide"
@@ -42,7 +43,6 @@ function Slider() {
 
         <Carousel.Item interval={4000}>
           <img
-            className="third-slide"
             className="d-block w-100"
             src={WordPress}
             alt="Third slide"
@@ -50,6 +50,18 @@ function Slider() {
           <br />
           <Carousel.Caption>
             <h4 className="tech-exerpt">As Content Management Systems & Blogs</h4>
+          </Carousel.Caption>
+        </Carousel.Item>
+        
+        <Carousel.Item interval={4000}>
+          <img
+            className="d-block w-100"
+            src={Git}
+            alt="forth slide"
+          />
+          <br />
+          <Carousel.Caption>
+            <h4 className="tech-exerpt">As Online Management Systems </h4>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

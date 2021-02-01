@@ -88,7 +88,6 @@ function ContactForm() {
           name="textHere"
           rows="5"
           placeholder="Tell us about your Business.."
-          rows="5"
           cols="80"
           ref={register({
             required: true,
